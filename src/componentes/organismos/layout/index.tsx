@@ -12,7 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
         <header className="h-[60px] border-b-[1px] border-b-gray-200">
           Header
         </header>
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 overflow-hidden">{children}</main>
       </div>
     </div>
   );
